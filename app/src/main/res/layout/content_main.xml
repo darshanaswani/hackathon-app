@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fontFamily="@font/baloo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/point_indiracircle"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="25dp"
+        android:background="@drawable/pointbackground"
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+        android:text="INDIRA CIRCLE"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/point_raiyachowk" />
+
+    <Button
+        android:id="@+id/point_madapar9"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="25dp"
+        android:background="@drawable/pointbackground"
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+        android:text="K.K.V HALL"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/point_indiracircle" />
+
+    <Button
+        android:id="@+id/point_nanavati"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/pointbackground"
+
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+
+        android:text="NANVATI"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/point_shitalpark" />
+
+    <Button
+        android:id="@+id/point_raiyachowk"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/pointbackground"
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+        android:text="RAIYA CHOCK"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/point_nanavati" />
+
+    <Button
+        android:id="@+id/point_ayodhya"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/pointbackground"
+
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+
+        android:text="AYODHIYA"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/point_madapar" />
+
+    <Button
+        android:id="@+id/point_shitalpark"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/pointbackground"
+
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+
+        android:text="SHITAL PARK"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/point_ayodhya" />
+
+
+    <Button
+        android:id="@+id/point_madapar"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/pointbackground"
+
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow_white"
+
+
+        android:text="MADHAPAR"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
